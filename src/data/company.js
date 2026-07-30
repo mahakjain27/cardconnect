@@ -13,12 +13,14 @@ import {
 } from "react-icons/gi";
 import { BsLightningCharge } from "react-icons/bs";
 import adityaPhoto from "../assets/aditya.jpeg";
+import aadrikLogo from "../assets/aadriklogo.jpeg";
 
 const company = {
   slug: "aadrik-distributors",
   name: "Aadrik Distributors Pvt. Ltd.",
   shortName: "Aadrik",
   logoInitials: "AD",
+  logo: aadrikLogo,
 
   person: {
     name: "Aditya Kothari",
@@ -38,10 +40,11 @@ const company = {
   },
 
   address: {
-    line: "Plot 12, Industrial Area Phase II, Chandigarh, India",
-    mapsUrl: "https://maps.google.com/?q=Industrial+Area+Phase+II+Chandigarh",
+    line: "79 Natu Pillaiyar Koil Street, Chennai - 600001",
+    mapsUrl:
+      "https://maps.google.com/?q=79+Natu+Pillaiyar+Koil+Street,+Chennai-600001",
     embedUrl:
-      "https://www.google.com/maps?q=Industrial+Area+Phase+II+Chandigarh&output=embed",
+      "https://www.google.com/maps?q=79+Natu+Pillaiyar+Koil+Street,+George+Town,+Chennai,+Tamil+Nadu+600001&z=17&output=embed",
   },
 
   about: {

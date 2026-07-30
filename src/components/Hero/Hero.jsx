@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import useCompany from "../../hooks/useCompany";
 import { downloadVCard } from "../../utils/vcard";
 import Button from "../ui/Button";
+import LogoBadge from "../ui/LogoBadge";
 import { FiDownload } from "react-icons/fi";
 
 const fadeUp = {
@@ -26,9 +27,11 @@ export default function Hero() {
         transition={{ duration: 0.5 }}
         className="mx-auto flex w-full max-w-3xl flex-col items-center"
       >
-        <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-brand-500 text-lg font-bold text-white shadow-soft">
-          {company.logoInitials}
-        </div>
+        <LogoBadge
+          company={company}
+          className="mb-5 h-14 rounded-2xl shadow-soft"
+          textClassName="text-lg"
+        />
 
         <p className="text-xs font-semibold tracking-[0.16em] text-slate-500 uppercase">
           {company.name}
