@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --color-brand-50: #eaf1fb;
+  --color-brand-100: #d1e2f7;
+  --color-brand-200: #a3c5ef;
+  --color-brand-300: #75a8e7;
+  --color-brand-400: #3d7bd8;
+  --color-brand-500: #0a4fb3;
+  --color-brand-600: #084094;
+  --color-brand-700: #063272;
+  --color-brand-800: #052654;
+  --color-brand-900: #031936;
+
+  --color-surface: #f6f8fb;
+
+  --shadow-soft: 0 2px 8px rgba(10, 30, 60, 0.06), 0 8px 24px rgba(10, 30, 60, 0.06);
+  --shadow-soft-lg: 0 8px 24px rgba(10, 30, 60, 0.08), 0 20px 48px rgba(10, 30, 60, 0.08);
+
+  --animate-fade-up: fade-up 0.5s ease forwards;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-surface);
+  color: #14181f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Sticky bottom CTA bar needs breathing room so content isn't hidden behind it on mobile */
+.has-sticky-cta {
+  padding-bottom: 84px;
+}
+
+@media (min-width: 768px) {
+  .has-sticky-cta {
+    padding-bottom: 0;
+  }
+}
+
+::selection {
+  background: var(--color-brand-100);
+  color: var(--color-brand-800);
+}
