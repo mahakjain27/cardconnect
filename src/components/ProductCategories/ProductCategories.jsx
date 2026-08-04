@@ -13,7 +13,7 @@ export default function ProductCategories() {
         {company.products.map(({ icon: Icon, title, description }) => (
           <div
             key={title}
-            className="group flex items-center gap-4 rounded-2xl bg-white p-4 shadow-soft transition-shadow duration-150 hover:shadow-soft-lg"
+            className="group flex items-center gap-4 rounded-2xl bg-white p-4 shadow-soft transition-all duration-200 hover:-translate-y-0.5 hover:scale-[1.01] hover:shadow-soft-lg"
           >
             <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-xl text-brand-500">
               <Icon />

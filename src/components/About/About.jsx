@@ -17,7 +17,7 @@ export default function About() {
         {highlights.map(({ icon: Icon, label }) => (
           <div
             key={label}
-            className="flex flex-col items-center gap-2.5 rounded-2xl bg-surface p-4 text-center"
+            className="flex flex-col items-center gap-2.5 rounded-2xl bg-surface p-4 text-center transition-all duration-200 hover:-translate-y-0.5 hover:bg-white hover:shadow-soft"
           >
             <span className="flex h-11 w-11 items-center justify-center rounded-full bg-brand-500/10 text-lg text-brand-500">
               <Icon />
