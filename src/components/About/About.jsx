@@ -9,7 +9,7 @@ export default function About() {
     <Section id="about" className="bg-white">
       <SectionHeading eyebrow="Who we are" title={title} />
 
-      <p className="text-center text-[15px] leading-relaxed text-slate-600">
+      <p className="text-center text-[15px] leading-relaxed text-neutral-600">
         {description}
       </p>
 
@@ -22,7 +22,7 @@ export default function About() {
             <span className="flex h-11 w-11 items-center justify-center rounded-full bg-brand-500/10 text-lg text-brand-500">
               <Icon />
             </span>
-            <span className="text-xs font-semibold text-slate-700">
+            <span className="text-xs font-semibold text-neutral-700">
               {label}
             </span>
           </div>

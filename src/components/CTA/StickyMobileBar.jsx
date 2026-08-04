@@ -7,7 +7,7 @@ export default function StickyMobileBar() {
   const company = useCompany();
 
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 flex gap-3 border-t border-slate-100 bg-white/95 p-3 backdrop-blur md:hidden">
+    <div className="fixed inset-x-0 bottom-0 z-40 flex gap-3 border-t border-neutral-100 bg-white/95 p-3 backdrop-blur md:hidden">
       <Button
         as="a"
         href={`tel:${company.contact.phone}`}

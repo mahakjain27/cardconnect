@@ -7,7 +7,7 @@ import Button from "../ui/Button";
 const emptyForm = { name: "", company: "", phone: "", email: "", message: "" };
 
 const fieldClasses =
-  "w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-800 placeholder:text-slate-400 focus:border-brand-400 focus:ring-2 focus:ring-brand-100 focus:outline-none";
+  "w-full rounded-xl border border-neutral-200 bg-white px-4 py-3 text-sm text-neutral-800 placeholder:text-neutral-400 focus:border-brand-400 focus:ring-2 focus:ring-brand-100 focus:outline-none";
 
 export default function ContactForm() {
   const company = useCompany();
@@ -29,7 +29,7 @@ export default function ContactForm() {
   return (
     <Section id="contact" className="bg-white">
       <SectionHeading eyebrow="Get in touch" title="Send an Enquiry" />
-      <p className="-mt-4 mb-6 text-center text-xs text-slate-400">
+      <p className="-mt-4 mb-6 text-center text-xs text-neutral-400">
         Enquiries are routed to {company.contact.enquiryEmail}
       </p>
 

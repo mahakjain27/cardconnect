@@ -1,9 +1,9 @@
 const variants = {
   primary:
-    "bg-gradient-to-r from-brand-500 to-brand-400 text-white shadow-soft hover:from-brand-600 hover:to-brand-500 hover:shadow-[0_8px_24px_rgba(10,79,179,0.35)] active:from-brand-700 active:to-brand-600",
+    "bg-gradient-to-r from-brand-500 to-brand-400 text-white shadow-soft hover:from-brand-600 hover:to-brand-500 hover:shadow-[0_8px_24px_rgba(122,17,40,0.35)] active:from-brand-700 active:to-brand-600",
   secondary:
     "bg-white text-brand-500 border border-brand-100 hover:border-brand-300 hover:bg-brand-50",
-  ghost: "bg-slate-100 text-slate-700 hover:bg-slate-200",
+  ghost: "bg-neutral-100 text-neutral-700 hover:bg-neutral-200",
   inverse: "bg-white text-brand-600 hover:bg-white/90",
 };
 

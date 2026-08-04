@@ -11,14 +11,14 @@ export default function QRCodeBlock({ value, href, size = 128 }) {
     QRCode.toCanvas(canvasRef.current, value, {
       width: size,
       margin: 1,
-      color: { dark: "#0a4fb3", light: "#ffffff" },
+      color: { dark: "#7a1128", light: "#ffffff" },
     });
   }, [value, size]);
 
   const canvas = (
     <canvas
       ref={canvasRef}
-      className="shrink-0 rounded-xl border border-slate-200 bg-white p-2 shadow-soft"
+      className="shrink-0 rounded-xl border border-neutral-200 bg-white p-2 shadow-soft"
     />
   );
 

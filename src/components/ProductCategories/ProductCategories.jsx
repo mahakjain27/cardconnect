@@ -19,12 +19,12 @@ export default function ProductCategories() {
               <Icon />
             </span>
             <div className="min-w-0 flex-1">
-              <h3 className="text-sm font-semibold text-slate-800">
+              <h3 className="text-sm font-semibold text-neutral-800">
                 {title}
               </h3>
-              <p className="truncate text-xs text-slate-500">{description}</p>
+              <p className="truncate text-xs text-neutral-500">{description}</p>
             </div>
-            <FiArrowRight className="shrink-0 text-slate-300 transition-transform duration-150 group-hover:translate-x-0.5 group-hover:text-brand-500" />
+            <FiArrowRight className="shrink-0 text-neutral-300 transition-transform duration-150 group-hover:translate-x-0.5 group-hover:text-brand-500" />
           </div>
         ))}
       </div>

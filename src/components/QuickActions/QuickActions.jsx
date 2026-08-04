@@ -31,7 +31,7 @@ function ActionButton({ icon: Icon, label, href, onClick }) {
         <span className="flex h-12 w-12 items-center justify-center rounded-full bg-brand-50 text-xl text-brand-500">
           <Icon />
         </span>
-        <span className="text-xs font-semibold text-slate-700">{label}</span>
+        <span className="text-xs font-semibold text-neutral-700">{label}</span>
       </Tag>
     </motion.div>
   );

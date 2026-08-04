@@ -9,10 +9,10 @@ export default function Footer() {
     <footer className="px-5 py-10 text-center">
       <div className="mx-auto flex w-full max-w-3xl flex-col items-center gap-3">
         <LogoBadge company={company} className="h-10 rounded-xl" />
-        <p className="text-sm font-semibold text-slate-700">
+        <p className="text-sm font-semibold text-neutral-700">
           {company.name}
         </p>
-        <p className="text-xs text-slate-400">
+        <p className="text-xs text-neutral-400">
           &copy; {year} {company.name}. All rights reserved.
         </p>
       </div>

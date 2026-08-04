@@ -38,7 +38,7 @@ export default function SocialLinks() {
             <span className="flex h-11 w-11 items-center justify-center rounded-full bg-white text-lg text-brand-500 shadow-soft">
               <Icon />
             </span>
-            <span className="text-[11px] font-medium text-slate-600">
+            <span className="text-[11px] font-medium text-neutral-600">
               {label}
             </span>
           </a>

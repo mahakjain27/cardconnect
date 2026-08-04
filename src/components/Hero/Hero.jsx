@@ -46,14 +46,14 @@ export default function Hero() {
 
         <motion.p
           variants={fadeUp}
-          className="text-xs font-semibold tracking-[0.16em] text-slate-500 uppercase"
+          className="text-xs font-semibold tracking-[0.16em] text-neutral-500 uppercase"
         >
           {company.name}
         </motion.p>
 
         <motion.div
           variants={photoIn}
-          className="relative my-6 h-28 w-28 overflow-hidden rounded-full bg-brand-50 ring-4 ring-white shadow-[0_0_0_6px_rgba(10,79,179,0.08),0_8px_24px_rgba(10,30,60,0.08),0_20px_48px_rgba(10,30,60,0.08)]"
+          className="relative my-6 h-28 w-28 overflow-hidden rounded-full bg-brand-50 ring-4 ring-white shadow-[0_0_0_6px_rgba(122,17,40,0.1),0_8px_24px_rgba(34,28,29,0.09),0_20px_48px_rgba(34,28,29,0.09)]"
         >
           {company.person.photo ? (
             <img
@@ -70,7 +70,7 @@ export default function Hero() {
 
         <motion.h1
           variants={fadeUp}
-          className="text-2xl font-extrabold tracking-tight text-slate-900 md:text-3xl"
+          className="text-2xl font-extrabold tracking-tight text-neutral-900 md:text-3xl"
         >
           {company.person.name}
         </motion.h1>
@@ -83,7 +83,7 @@ export default function Hero() {
 
         <motion.p
           variants={fadeUp}
-          className="mt-5 max-w-sm text-balance text-slate-500"
+          className="mt-5 max-w-sm text-balance text-neutral-500"
         >
           {company.tagline}
         </motion.p>

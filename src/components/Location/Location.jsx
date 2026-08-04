@@ -20,7 +20,7 @@ export default function Location() {
         />
       </div>
 
-      <p className="mt-4 text-center text-sm text-slate-600">
+      <p className="mt-4 text-center text-sm text-neutral-600">
         {company.address.line}
       </p>
 
