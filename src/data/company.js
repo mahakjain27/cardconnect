@@ -12,7 +12,6 @@ import {
   GiToolbox,
 } from "react-icons/gi";
 import { BsLightningCharge } from "react-icons/bs";
-import adityaPhoto from "../assets/aditya.jpeg";
 import aadrikLogo from "../assets/aadriklogo.jpeg";
 
 const company = {
@@ -22,19 +21,11 @@ const company = {
   logoInitials: "AD",
   logo: aadrikLogo,
 
-  person: {
-    name: "Aditya Kothari",
-    title: "Business Development Manager",
-    photo: adityaPhoto,
-  },
-
   tagline: "Empowering Industrial Solutions with AI",
 
+  // person, contact.{phoneDisplay,phone,whatsapp,email} and social.whatsapp
+  // are per-person — see data/people.js, merged in by useCompany().
   contact: {
-    phoneDisplay: "+91 98400 51115",
-    phone: "+919840051115",
-    whatsapp: "919840051115",
-    email: "aaditya@aadrik.co.in",
     enquiryEmail: "ea@aadrik.co.in",
     website: "https://aadrik.co.in/",
   },
@@ -105,7 +96,7 @@ const company = {
     facebook: "https://www.facebook.com/aadrikdistributors",
     youtube: "https://www.youtube.com/@aadrikdistributors",
     website: "https://aadrik.co.in/",
-    whatsapp: "https://wa.me/919840051115",
+    // whatsapp is per-person — see data/people.js.
   },
 };
 
